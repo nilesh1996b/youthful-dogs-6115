@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import com.manreg.bean.WorkType;
+import com.manrega.exception.WorkTypeException;
 import com.manrega.util.DBUtil;
-import com.marega.exception.WorkTypeException;
 
 
 public class WorkTypeImpl implements WorkTypeDao {
@@ -106,7 +106,7 @@ public class WorkTypeImpl implements WorkTypeDao {
 		
 		try(Connection conn = DBUtil.provideConnection()) {
 			
-			PreparedStatement ps = conn.prepareStatement("select * from workers");
+			PreparedStatement ps = conn.prepareStatement("select * from workType");
 			ResultSet rs =  ps.executeQuery();
 			
 			while(rs.next())

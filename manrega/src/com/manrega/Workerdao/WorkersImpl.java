@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.manreg.bean.Workers;
+import com.manrega.exception.WorkersException;
 import com.manrega.util.DBUtil;
-import com.marega.exception.WorkersException;
 
 public class WorkersImpl implements WorkersDao {
 

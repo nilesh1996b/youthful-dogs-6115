@@ -12,6 +12,7 @@ public class WorkType {
 	
 	public WorkType(int workId, String workName, int workHours) {
 		super();
+		this.workId = workId;
 		this.workName = workName;
 		this.workHours = workHours;
 	}

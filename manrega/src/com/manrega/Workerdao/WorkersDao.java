@@ -4,7 +4,7 @@ package com.manrega.Workerdao;
 import java.util.List;
 
 import com.manreg.bean.Workers;
-import com.marega.exception.WorkersException;
+import com.manrega.exception.WorkersException;
 
 public interface WorkersDao {
 

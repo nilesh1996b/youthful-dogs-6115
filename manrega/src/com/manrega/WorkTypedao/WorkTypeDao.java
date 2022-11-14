@@ -4,7 +4,7 @@ package com.manrega.WorkTypedao;
 import java.util.List;
 
 import com.manreg.bean.WorkType;
-import com.marega.exception.WorkTypeException;
+import com.manrega.exception.WorkTypeException;
 
 public interface WorkTypeDao {
 
